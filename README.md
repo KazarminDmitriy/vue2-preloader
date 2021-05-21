@@ -14,7 +14,7 @@ $ npm install @phoenix91/vue2-preloader --save
 
 ```js
 import Vue from 'vue'
-import preloader from '@phoenix91/preloader';
+import preloader from '@phoenix91/vue2-preloader';
 
 Vue.use(preloader);
 ```
@@ -46,7 +46,7 @@ When installing the preloader, you can specify the default property values
 #### Example:
 ```js
 import Vue from 'vue'
-import preloader from '@phoenix91/preloader';
+import preloader from '@phoenix91/vue2-preloader';
 
 Vue.use(preloader, {
     wrapperClass: 'my-wrapper-preloader-class',
@@ -60,7 +60,7 @@ Instead of the address to the image, you can use the base64-code of the image
 #### Example:
 ```js
 import Vue from 'vue'
-import preloader from '@phoenix91/preloader';
+import preloader from '@phoenix91/vue2-preloader';
 
 Vue.use(preloader, {
     imgSrc: 'data:image/svg+xml;base64,<base64-code>',

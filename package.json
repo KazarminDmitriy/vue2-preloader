@@ -1,6 +1,6 @@
 {
   "name": "@phoenix91/vue2-preloader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Preloader plugin for Vue.js 2",
   "keywords": [
     "preloader",
